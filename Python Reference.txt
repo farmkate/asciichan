@@ -1,0 +1,45 @@
+"""aaa""" prints over multiple lines
+
+Escape Sequences
+\\  backslash(\)
+\'  single-quote(')
+\"  double-quote(")
+\a  ASCII bell(BEL)
+\b  ASCII backspace(BS)
+\f  ASCII formfeed(FF)
+\n  ASCII linefeed (LF)
+\N{name}    Character named name in the Unicode database
+\r  ASCII carriage return(CR)
+\t  ASCII horizontal tab(TAB)
+\uxxxx  Character with 16-bit hex value xxxx
+\Uxxxxxxxx  Character with 32-bit hex value xxxxxxxx
+\v  ASCII vertical tab(VT)
+\ooo    Character with octal value oo
+\xhh    Character with hex value hh
+
+% reference to a variable or number
+/ division
+* multiplication
+- subtraction
++ addition
+def functionName:   define a function
+print "" % ()
+
+from sys import argv
+script, first, second = argv
+
+open(filename, 'w')     opens file in write mode
+
+raw_input()
+raw_input( '>> ' )
+
+
+print"""
+This will print
+on separate lines
+keeping line breaks
+as given.
+"""
+
+"""documentation comments within a function"""
+can call by      help(file.functionName)    when in Python shell
